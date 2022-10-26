@@ -1,6 +1,6 @@
 ---
 name: Question
-about: 질문
+about: 질문하기
 title: ""
 labels: "question"
 ---
