@@ -1,5 +1,5 @@
 ---
-name: Question
+name: question
 about: 질문하기
 title: ""
 labels: "question"
