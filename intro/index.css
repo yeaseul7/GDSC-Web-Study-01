@@ -1,0 +1,63 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+/* *=모든 녀석들 */
+*{
+    box-sizing: border-box;
+    background-color: #153180;
+    color: rgb(197, 219, 255);
+}
+h1{
+    text-align: center;
+}
+.banner{
+    width: 100vw;
+    height: 100px;
+    /* vw, vh : view width, view height */
+    /* 50vh 이면 화면의 50프로 */
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 1.875rem;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    all: unset;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+a:hover{
+    color: white;
+}
+nav > div{
+    display: flex;
+    gap: 10px;
+}
+/* nav 안에 있는 div 내부 선택 */
+/* :으로 시작하는 것은 가상 선택자 : hover */
+/* 관례적으로 padding-left등과 같이 나눠서 쓰는걸 권장한다. */
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+}
+.face{
+    width: 200px;
+    height: 250px;
+}
+.major{
+    width: 400px;
+    height: 250px;
+}
+.food{
+    width: 300px;
+    height: 250px;
+}
+.end{
+    margin-bottom: 30px;
+}
