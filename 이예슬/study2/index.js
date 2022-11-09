@@ -82,9 +82,10 @@ const decimal =()=>{
     element.innerHTML += decButton.innerHTML;
 }
 const result = ()=>{
-    display.innerHTML +=    eval(element.innerHTML);
-
-
+    display.innerHTML += eval(element.innerHTML)
+}
+const reset = ()=>{
+    element.innerHTML = ' ';
 }
 const init = () => {
     numberButton0.addEventListener("click", writeNumber0);
@@ -106,5 +107,6 @@ const init = () => {
     left_parButton.addEventListener("click", left_par);
     right_parButton.addEventListener("click", right_par);
     resultButton.addEventListener("click",result);
+    resetButton.addEventListener("click", reset);
   };
   init();
